@@ -2,6 +2,8 @@ Vaex- Reading And Processing Huge Datasets in seconds
 
 What is Vaex?
 
+Vaex is a Python library with a DataFrame API that works efficiently with big (~1 billion rows) tabular datasets. Using an expression system and memory mapping, all operations can be performed lazily and in chunks, while using a familiar DataFrame API and regular numpy expressions, enabling data cleansing, on the fly computations and visualizations for massive datasets on even laptops.
+
 Vaex is a high performance Python library for lazy Out-of-Core DataFrames (similar to Pandas), to visualize and explore big tabular datasets. It calculates statistics such as mean, sum, count, standard deviation etc, on an N-dimensional grid for more than a billion (10^9) samples/rows per second. Visualization is done using histograms, density plots and 3d volume rendering, allowing interactive exploration of big data.
 Vaex uses memory mapping, zero memory copy policy and lazy computations for best performance (no memory wasted).
 
